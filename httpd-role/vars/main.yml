@@ -1,0 +1,8 @@
+# roles/httpd/vars/main.yml
+---
+
+httpd_packages: httpd
+
+httpd_config: /etc/httpd/conf/httpd.conf
+httpd_status_config: /etc/httpd/conf.d/status.conf
+

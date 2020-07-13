@@ -1,0 +1,15 @@
+# roles/httpd/defaults/main.yml
+---
+
+httpd_access_log: logs/access_log
+httpd_document_root: '/var/www/html'
+httpd_error_log: logs/error_log
+httpd_extended_status: 'On'
+httpd_listen: 80
+httpd_log_level: warn
+httpd_server_admin: root@localhost
+httpd_server_root: '/etc/httpd'
+httpd_status_enable: false
+httpd_status_location: '/server-status'
+httpd_status_require: 'host localhost'
+
