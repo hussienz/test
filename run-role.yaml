@@ -6,11 +6,11 @@
         prompt: "Which action Do you choose?"
         private: no
 
-   
+
       - name: "package_version"
         prompt: "which version?"
         private: no
         when: action == "downgrade"
 
     roles:
-      - ansible-role-httpd
+      - httpd-role
